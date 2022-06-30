@@ -13,7 +13,10 @@ struct SwitfUI_ClockApp: App {
     
     var body: some Scene {
         WindowGroup {
-            DigitalClockView()
+            // Select the clock face that you want.
+            // TODO: Use a swipe gesture to change the clock face.
+            // DigitalClockView()
+            AnalogClockView()
         }
     }
 }
