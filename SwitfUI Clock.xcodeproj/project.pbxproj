@@ -11,12 +11,21 @@
 		A0135686284394E40018A4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0135685284394E40018A4A5 /* Assets.xcassets */; };
 		A0135689284394E40018A4A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0135688284394E40018A4A5 /* Preview Assets.xcassets */; };
 		A0135690284395090018A4A5 /* DigitalClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013568F284395090018A4A5 /* DigitalClockView.swift */; };
+		A0EC0AAE286DDAD400E89E0F /* SwitfUI_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EC0AAD286DDAD400E89E0F /* SwitfUI_ClockUITests.swift */; };
+		A0EC0AB0286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EC0AAF286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift */; };
 		A0F71BF2286DAEB600723A1C /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F71BF1286DAEB600723A1C /* AnalogClockView.swift */; };
 		A0F71BF4286DAEEA00723A1C /* ClockUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F71BF3286DAEEA00723A1C /* ClockUtils.swift */; };
 		A0F71BFC286DAF0A00723A1C /* SwitfUI_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F71BFB286DAF0A00723A1C /* SwitfUI_ClockTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A0EC0AB1286DDAD400E89E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0135676284394E20018A4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A013567D284394E20018A4A5;
+			remoteInfo = "SwitfUI Clock";
+		};
 		A0F71BFD286DAF0A00723A1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A0135676284394E20018A4A5 /* Project object */;
@@ -32,6 +41,9 @@
 		A0135685284394E40018A4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0135688284394E40018A4A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A013568F284395090018A4A5 /* DigitalClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalClockView.swift; sourceTree = "<group>"; };
+		A0EC0AAB286DDAD400E89E0F /* SwitfUI ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwitfUI ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EC0AAD286DDAD400E89E0F /* SwitfUI_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitfUI_ClockUITests.swift; sourceTree = "<group>"; };
+		A0EC0AAF286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitfUI_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0F71BF1286DAEB600723A1C /* AnalogClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 		A0F71BF3286DAEEA00723A1C /* ClockUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockUtils.swift; sourceTree = "<group>"; };
 		A0F71BF9286DAF0A00723A1C /* SwitfUI ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwitfUI ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A013567B284394E20018A4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EC0AA8286DDAD400E89E0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,6 +80,7 @@
 			children = (
 				A0135680284394E20018A4A5 /* SwitfUI Clock */,
 				A0F71BFA286DAF0A00723A1C /* SwitfUI ClockTests */,
+				A0EC0AAC286DDAD400E89E0F /* SwitfUI ClockUITests */,
 				A013567F284394E20018A4A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +90,7 @@
 			children = (
 				A013567E284394E20018A4A5 /* SwitfUI Clock.app */,
 				A0F71BF9286DAF0A00723A1C /* SwitfUI ClockTests.xctest */,
+				A0EC0AAB286DDAD400E89E0F /* SwitfUI ClockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +114,15 @@
 				A0135688284394E40018A4A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0EC0AAC286DDAD400E89E0F /* SwitfUI ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0EC0AAD286DDAD400E89E0F /* SwitfUI_ClockUITests.swift */,
+				A0EC0AAF286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift */,
+			);
+			path = "SwitfUI ClockUITests";
 			sourceTree = "<group>";
 		};
 		A0F71BFA286DAF0A00723A1C /* SwitfUI ClockTests */ = {
@@ -122,6 +152,24 @@
 			productName = "SwitfUI Clock";
 			productReference = A013567E284394E20018A4A5 /* SwitfUI Clock.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A0EC0AAA286DDAD400E89E0F /* SwitfUI ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EC0AB5286DDAD400E89E0F /* Build configuration list for PBXNativeTarget "SwitfUI ClockUITests" */;
+			buildPhases = (
+				A0EC0AA7286DDAD400E89E0F /* Sources */,
+				A0EC0AA8286DDAD400E89E0F /* Frameworks */,
+				A0EC0AA9286DDAD400E89E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0EC0AB2286DDAD400E89E0F /* PBXTargetDependency */,
+			);
+			name = "SwitfUI ClockUITests";
+			productName = "SwitfUI ClockUITests";
+			productReference = A0EC0AAB286DDAD400E89E0F /* SwitfUI ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		A0F71BF8286DAF0A00723A1C /* SwitfUI ClockTests */ = {
 			isa = PBXNativeTarget;
@@ -154,6 +202,10 @@
 					A013567D284394E20018A4A5 = {
 						CreatedOnToolsVersion = 13.4;
 					};
+					A0EC0AAA286DDAD400E89E0F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = A013567D284394E20018A4A5;
+					};
 					A0F71BF8286DAF0A00723A1C = {
 						CreatedOnToolsVersion = 13.4;
 						TestTargetID = A013567D284394E20018A4A5;
@@ -175,6 +227,7 @@
 			targets = (
 				A013567D284394E20018A4A5 /* SwitfUI Clock */,
 				A0F71BF8286DAF0A00723A1C /* SwitfUI ClockTests */,
+				A0EC0AAA286DDAD400E89E0F /* SwitfUI ClockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +239,13 @@
 			files = (
 				A0135689284394E40018A4A5 /* Preview Assets.xcassets in Resources */,
 				A0135686284394E40018A4A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EC0AA9286DDAD400E89E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +270,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0EC0AA7286DDAD400E89E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EC0AAE286DDAD400E89E0F /* SwitfUI_ClockUITests.swift in Sources */,
+				A0EC0AB0286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0F71BF5286DAF0A00723A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +290,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A0EC0AB2286DDAD400E89E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A013567D284394E20018A4A5 /* SwitfUI Clock */;
+			targetProxy = A0EC0AB1286DDAD400E89E0F /* PBXContainerItemProxy */;
+		};
 		A0F71BFE286DAF0A00723A1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A013567D284394E20018A4A5 /* SwitfUI Clock */;
@@ -401,6 +475,40 @@
 			};
 			name = Release;
 		};
+		A0EC0AB3286DDAD400E89E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Y75AAKRC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwitfUI Clock";
+			};
+			name = Debug;
+		};
+		A0EC0AB4286DDAD400E89E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Y75AAKRC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwitfUI Clock";
+			};
+			name = Release;
+		};
 		A0F71C00286DAF0A00723A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -454,6 +562,15 @@
 			buildConfigurations = (
 				A013568D284394E40018A4A5 /* Debug */,
 				A013568E284394E40018A4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0EC0AB5286DDAD400E89E0F /* Build configuration list for PBXNativeTarget "SwitfUI ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EC0AB3286DDAD400E89E0F /* Debug */,
+				A0EC0AB4286DDAD400E89E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
