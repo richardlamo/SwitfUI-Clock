@@ -21,8 +21,13 @@ struct DigitalClockView: View {
     var body: some View {
         ZStack {
             HStack {
-                Text("\(hour):\(minute):\(second)")
+                let hourString = String(format: "%02d", hour)
+                let minuteString = String(format: "%02d", minute)
+                let secondString = String(format: "%02d", second)
+                Text("\(hourString):\(minuteString):\(secondString)")
+                    .font(.system(size: 80))
             }
+            .padding(.all)
         }
         .onReceive(clockTimer) {
             time in
