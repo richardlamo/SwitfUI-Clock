@@ -15,8 +15,8 @@ struct SwitfUI_ClockApp: App {
         WindowGroup {
             // Select the clock face that you want.
             // TODO: Use a swipe gesture to change the clock face.
-            DigitalClockView()
-            // AnalogClockView()
+            // DigitalClockView()
+            AnalogClockView()
         }
     }
 }

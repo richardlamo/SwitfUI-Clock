@@ -11,12 +11,18 @@
 		A0135686284394E40018A4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0135685284394E40018A4A5 /* Assets.xcassets */; };
 		A0135689284394E40018A4A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0135688284394E40018A4A5 /* Preview Assets.xcassets */; };
 		A0135690284395090018A4A5 /* DigitalClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013568F284395090018A4A5 /* DigitalClockView.swift */; };
-		A0EB53862AAEDB05005CDAF1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EB533B2AAED448005CDAF1 /* WidgetKit.framework */; };
-		A0EB53872AAEDB05005CDAF1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EB533D2AAED448005CDAF1 /* SwiftUI.framework */; };
-		A0EB538A2AAEDB05005CDAF1 /* SwiftUIClockWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB53892AAEDB05005CDAF1 /* SwiftUIClockWidgetBundle.swift */; };
-		A0EB538C2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EB538B2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift */; };
-		A0EB538E2AAEDB06005CDAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EB538D2AAEDB06005CDAF1 /* Assets.xcassets */; };
-		A0EB53922AAEDB06005CDAF1 /* SwiftUIClockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0EB53852AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0C9A3952ADDEE0C002ADE8A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EB533B2AAED448005CDAF1 /* WidgetKit.framework */; };
+		A0C9A3962ADDEE0C002ADE8A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EB533D2AAED448005CDAF1 /* SwiftUI.framework */; };
+		A0C9A3992ADDEE0C002ADE8A /* SwiftUIClockExtWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9A3982ADDEE0C002ADE8A /* SwiftUIClockExtWidgetBundle.swift */; };
+		A0C9A39B2ADDEE0C002ADE8A /* SwiftUIClockExtWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9A39A2ADDEE0C002ADE8A /* SwiftUIClockExtWidget.swift */; };
+		A0C9A39D2ADDEE0C002ADE8A /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9A39C2ADDEE0C002ADE8A /* AppIntent.swift */; };
+		A0C9A39F2ADDEE0D002ADE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9A39E2ADDEE0D002ADE8A /* Assets.xcassets */; };
+		A0C9A3A32ADDEE0D002ADE8A /* SwiftUIClockExtWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0C9A3942ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0C9A3AD2ADE013D002ADE8A /* SwiftUIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9A3AC2ADE013D002ADE8A /* SwiftUIClockView.swift */; };
+		A0C9A3AF2ADE0BF4002ADE8A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = A0C9A3AE2ADE0BF4002ADE8A /* Fonts */; };
+		A0C9A3B02ADE0C2A002ADE8A /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0E279062AB1474400F0662B /* Chalkboard.ttc */; };
+		A0C9A3B12ADE0C2E002ADE8A /* Cochin.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0F027182AB143D7003DC440 /* Cochin.ttc */; };
+		A0E279072AB1474400F0662B /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0E279062AB1474400F0662B /* Chalkboard.ttc */; };
 		A0EC0AAE286DDAD400E89E0F /* SwitfUI_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EC0AAD286DDAD400E89E0F /* SwitfUI_ClockUITests.swift */; };
 		A0EC0AB0286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EC0AAF286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift */; };
 		A0F71BF2286DAEB600723A1C /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F71BF1286DAEB600723A1C /* AnalogClockView.swift */; };
@@ -25,12 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A0EB53902AAEDB06005CDAF1 /* PBXContainerItemProxy */ = {
+		A0C9A3A12ADDEE0D002ADE8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A0135676284394E20018A4A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0EB53842AAEDB05005CDAF1;
-			remoteInfo = SwiftUIClockWidgetExtension;
+			remoteGlobalIDString = A0C9A3932ADDEE0C002ADE8A;
+			remoteInfo = SwiftUIClockExtWidgetExtension;
 		};
 		A0EC0AB1286DDAD400E89E0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -55,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A0EB53922AAEDB06005CDAF1 /* SwiftUIClockWidgetExtension.appex in Embed Foundation Extensions */,
+				A0C9A3A32ADDEE0D002ADE8A /* SwiftUIClockExtWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,16 +74,26 @@
 		A0135685284394E40018A4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0135688284394E40018A4A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A013568F284395090018A4A5 /* DigitalClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalClockView.swift; sourceTree = "<group>"; };
+		A077D5202AAFF66C0058F4BF /* SwiftUICalendarWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalendarWidgetBundle.swift; sourceTree = "<group>"; };
+		A077D5222AAFF66C0058F4BF /* SwiftUICalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICalendarWidget.swift; sourceTree = "<group>"; };
+		A077D5242AAFF66E0058F4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A077D5262AAFF66E0058F4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C9A3942ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftUIClockExtWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C9A3982ADDEE0C002ADE8A /* SwiftUIClockExtWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockExtWidgetBundle.swift; sourceTree = "<group>"; };
+		A0C9A39A2ADDEE0C002ADE8A /* SwiftUIClockExtWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockExtWidget.swift; sourceTree = "<group>"; };
+		A0C9A39C2ADDEE0C002ADE8A /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		A0C9A39E2ADDEE0D002ADE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C9A3A02ADDEE0D002ADE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C9A3AC2ADE013D002ADE8A /* SwiftUIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockView.swift; sourceTree = "<group>"; };
+		A0C9A3AE2ADE0BF4002ADE8A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		A0E279062AB1474400F0662B /* Chalkboard.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboard.ttc; sourceTree = "<group>"; };
 		A0EB533B2AAED448005CDAF1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		A0EB533D2AAED448005CDAF1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		A0EB53852AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftUIClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0EB53892AAEDB05005CDAF1 /* SwiftUIClockWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockWidgetBundle.swift; sourceTree = "<group>"; };
-		A0EB538B2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockWidget.swift; sourceTree = "<group>"; };
-		A0EB538D2AAEDB06005CDAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0EB538F2AAEDB06005CDAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EB538B2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIClockWidget.swift; path = ../SwiftUIClockWidget/SwiftUIClockWidget.swift; sourceTree = "<group>"; };
 		A0EC0AAB286DDAD400E89E0F /* SwitfUI ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwitfUI ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EC0AAD286DDAD400E89E0F /* SwitfUI_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitfUI_ClockUITests.swift; sourceTree = "<group>"; };
 		A0EC0AAF286DDAD400E89E0F /* SwitfUI_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitfUI_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0F027182AB143D7003DC440 /* Cochin.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cochin.ttc; sourceTree = "<group>"; };
 		A0F71BF1286DAEB600723A1C /* AnalogClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 		A0F71BF3286DAEEA00723A1C /* ClockUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockUtils.swift; sourceTree = "<group>"; };
 		A0F71BF9286DAF0A00723A1C /* SwitfUI ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwitfUI ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,12 +108,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0EB53822AAEDB05005CDAF1 /* Frameworks */ = {
+		A0C9A3912ADDEE0C002ADE8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EB53872AAEDB05005CDAF1 /* SwiftUI.framework in Frameworks */,
-				A0EB53862AAEDB05005CDAF1 /* WidgetKit.framework in Frameworks */,
+				A0C9A3962ADDEE0C002ADE8A /* SwiftUI.framework in Frameworks */,
+				A0C9A3952ADDEE0C002ADE8A /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,10 +137,12 @@
 		A0135675284394E20018A4A5 = {
 			isa = PBXGroup;
 			children = (
+				A0C9A3AE2ADE0BF4002ADE8A /* Fonts */,
 				A0135680284394E20018A4A5 /* SwitfUI Clock */,
 				A0F71BFA286DAF0A00723A1C /* SwitfUI ClockTests */,
 				A0EC0AAC286DDAD400E89E0F /* SwitfUI ClockUITests */,
-				A0EB53882AAEDB05005CDAF1 /* SwiftUIClockWidget */,
+				A077D51F2AAFF66C0058F4BF /* SwiftUICalendarWidget */,
+				A0C9A3972ADDEE0C002ADE8A /* SwiftUIClockExtWidget */,
 				A0EB533A2AAED448005CDAF1 /* Frameworks */,
 				A013567F284394E20018A4A5 /* Products */,
 			);
@@ -136,7 +154,7 @@
 				A013567E284394E20018A4A5 /* SwitfUI Clock.app */,
 				A0F71BF9286DAF0A00723A1C /* SwitfUI ClockTests.xctest */,
 				A0EC0AAB286DDAD400E89E0F /* SwitfUI ClockUITests.xctest */,
-				A0EB53852AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension.appex */,
+				A0C9A3942ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +180,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A077D51F2AAFF66C0058F4BF /* SwiftUICalendarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A077D5202AAFF66C0058F4BF /* SwiftUICalendarWidgetBundle.swift */,
+				A0EB538B2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift */,
+				A077D5222AAFF66C0058F4BF /* SwiftUICalendarWidget.swift */,
+				A0F027172AB143D0003DC440 /* Fonts */,
+				A077D5242AAFF66E0058F4BF /* Assets.xcassets */,
+				A077D5262AAFF66E0058F4BF /* Info.plist */,
+			);
+			path = SwiftUICalendarWidget;
+			sourceTree = "<group>";
+		};
+		A0C9A3972ADDEE0C002ADE8A /* SwiftUIClockExtWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9A3982ADDEE0C002ADE8A /* SwiftUIClockExtWidgetBundle.swift */,
+				A0C9A39A2ADDEE0C002ADE8A /* SwiftUIClockExtWidget.swift */,
+				A0C9A3AC2ADE013D002ADE8A /* SwiftUIClockView.swift */,
+				A0C9A39C2ADDEE0C002ADE8A /* AppIntent.swift */,
+				A0C9A39E2ADDEE0D002ADE8A /* Assets.xcassets */,
+				A0C9A3A02ADDEE0D002ADE8A /* Info.plist */,
+			);
+			path = SwiftUIClockExtWidget;
+			sourceTree = "<group>";
+		};
 		A0EB533A2AAED448005CDAF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,17 +213,6 @@
 				A0EB533D2AAED448005CDAF1 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A0EB53882AAEDB05005CDAF1 /* SwiftUIClockWidget */ = {
-			isa = PBXGroup;
-			children = (
-				A0EB53892AAEDB05005CDAF1 /* SwiftUIClockWidgetBundle.swift */,
-				A0EB538B2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift */,
-				A0EB538D2AAEDB06005CDAF1 /* Assets.xcassets */,
-				A0EB538F2AAEDB06005CDAF1 /* Info.plist */,
-			);
-			path = SwiftUIClockWidget;
 			sourceTree = "<group>";
 		};
 		A0EC0AAC286DDAD400E89E0F /* SwitfUI ClockUITests */ = {
@@ -190,6 +223,16 @@
 			);
 			path = "SwitfUI ClockUITests";
 			sourceTree = "<group>";
+		};
+		A0F027172AB143D0003DC440 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0E279062AB1474400F0662B /* Chalkboard.ttc */,
+				A0F027182AB143D7003DC440 /* Cochin.ttc */,
+			);
+			name = Fonts;
+			path = "/Users/richardlam/Dev/SwitfUI-Clock/SwiftUICalendarWidget/Fonts";
+			sourceTree = "<absolute>";
 		};
 		A0F71BFA286DAF0A00723A1C /* SwitfUI ClockTests */ = {
 			isa = PBXGroup;
@@ -214,28 +257,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				A0EB53912AAEDB06005CDAF1 /* PBXTargetDependency */,
+				A0C9A3A22ADDEE0D002ADE8A /* PBXTargetDependency */,
 			);
 			name = "SwitfUI Clock";
 			productName = "SwitfUI Clock";
 			productReference = A013567E284394E20018A4A5 /* SwitfUI Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A0EB53842AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension */ = {
+		A0C9A3932ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0EB53932AAEDB06005CDAF1 /* Build configuration list for PBXNativeTarget "SwiftUIClockWidgetExtension" */;
+			buildConfigurationList = A0C9A3A42ADDEE0D002ADE8A /* Build configuration list for PBXNativeTarget "SwiftUIClockExtWidgetExtension" */;
 			buildPhases = (
-				A0EB53812AAEDB05005CDAF1 /* Sources */,
-				A0EB53822AAEDB05005CDAF1 /* Frameworks */,
-				A0EB53832AAEDB05005CDAF1 /* Resources */,
+				A0C9A3902ADDEE0C002ADE8A /* Sources */,
+				A0C9A3912ADDEE0C002ADE8A /* Frameworks */,
+				A0C9A3922ADDEE0C002ADE8A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIClockWidgetExtension;
-			productName = SwiftUIClockWidgetExtension;
-			productReference = A0EB53852AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension.appex */;
+			name = SwiftUIClockExtWidgetExtension;
+			productName = SwiftUIClockExtWidgetExtension;
+			productReference = A0C9A3942ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		A0EC0AAA286DDAD400E89E0F /* SwitfUI ClockUITests */ = {
@@ -281,14 +324,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A013567D284394E20018A4A5 = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					A0EB53842AAEDB05005CDAF1 = {
-						CreatedOnToolsVersion = 14.3.1;
+					A0C9A3932ADDEE0C002ADE8A = {
+						CreatedOnToolsVersion = 15.0;
 					};
 					A0EC0AAA286DDAD400E89E0F = {
 						CreatedOnToolsVersion = 13.4;
@@ -316,7 +359,7 @@
 				A013567D284394E20018A4A5 /* SwitfUI Clock */,
 				A0F71BF8286DAF0A00723A1C /* SwitfUI ClockTests */,
 				A0EC0AAA286DDAD400E89E0F /* SwitfUI ClockUITests */,
-				A0EB53842AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension */,
+				A0C9A3932ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -327,15 +370,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0135689284394E40018A4A5 /* Preview Assets.xcassets in Resources */,
+				A0E279072AB1474400F0662B /* Chalkboard.ttc in Resources */,
 				A0135686284394E40018A4A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0EB53832AAEDB05005CDAF1 /* Resources */ = {
+		A0C9A3922ADDEE0C002ADE8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EB538E2AAEDB06005CDAF1 /* Assets.xcassets in Resources */,
+				A0C9A39F2ADDEE0D002ADE8A /* Assets.xcassets in Resources */,
+				A0C9A3B02ADE0C2A002ADE8A /* Chalkboard.ttc in Resources */,
+				A0C9A3AF2ADE0BF4002ADE8A /* Fonts in Resources */,
+				A0C9A3B12ADE0C2E002ADE8A /* Cochin.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,12 +414,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0EB53812AAEDB05005CDAF1 /* Sources */ = {
+		A0C9A3902ADDEE0C002ADE8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EB538C2AAEDB05005CDAF1 /* SwiftUIClockWidget.swift in Sources */,
-				A0EB538A2AAEDB05005CDAF1 /* SwiftUIClockWidgetBundle.swift in Sources */,
+				A0C9A39B2ADDEE0C002ADE8A /* SwiftUIClockExtWidget.swift in Sources */,
+				A0C9A3992ADDEE0C002ADE8A /* SwiftUIClockExtWidgetBundle.swift in Sources */,
+				A0C9A39D2ADDEE0C002ADE8A /* AppIntent.swift in Sources */,
+				A0C9A3AD2ADE013D002ADE8A /* SwiftUIClockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +445,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0EB53912AAEDB06005CDAF1 /* PBXTargetDependency */ = {
+		A0C9A3A22ADDEE0D002ADE8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0EB53842AAEDB05005CDAF1 /* SwiftUIClockWidgetExtension */;
-			targetProxy = A0EB53902AAEDB06005CDAF1 /* PBXContainerItemProxy */;
+			target = A0C9A3932ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension */;
+			targetProxy = A0C9A3A12ADDEE0D002ADE8A /* PBXContainerItemProxy */;
 		};
 		A0EC0AB2286DDAD400E89E0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -418,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -464,13 +514,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -478,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -518,12 +570,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -588,61 +641,74 @@
 			};
 			name = Release;
 		};
-		A0EB53942AAEDB06005CDAF1 /* Debug */ = {
+		A0C9A3A52ADDEE0D002ADE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2Y75AAKRC3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIClockWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIClockWidget;
+				INFOPLIST_FILE = SwiftUIClockExtWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIClockExtWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-Clock.SwiftUIClockWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-Clock.SwiftUIClockExtWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
-		A0EB53952AAEDB06005CDAF1 /* Release */ = {
+		A0C9A3A62ADDEE0D002ADE8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2Y75AAKRC3;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUIClockWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIClockWidget;
+				INFOPLIST_FILE = SwiftUIClockExtWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIClockExtWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-Clock.SwiftUIClockWidget";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.nice.SwitfUI-Clock.SwiftUIClockExtWidget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
@@ -737,11 +803,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0EB53932AAEDB06005CDAF1 /* Build configuration list for PBXNativeTarget "SwiftUIClockWidgetExtension" */ = {
+		A0C9A3A42ADDEE0D002ADE8A /* Build configuration list for PBXNativeTarget "SwiftUIClockExtWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0EB53942AAEDB06005CDAF1 /* Debug */,
-				A0EB53952AAEDB06005CDAF1 /* Release */,
+				A0C9A3A52ADDEE0D002ADE8A /* Debug */,
+				A0C9A3A62ADDEE0D002ADE8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

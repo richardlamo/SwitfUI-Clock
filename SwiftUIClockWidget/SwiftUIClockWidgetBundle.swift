@@ -8,9 +8,9 @@
 import WidgetKit
 import SwiftUI
 
-@main
-struct SwiftUIClockWidgetBundle: WidgetBundle {
-    var body: some Widget {
-        SwiftUIClockWidget()
-    }
-}
+//@main
+//struct SwiftUIClockWidgetBundle: WidgetBundle {
+//    var body: some Widget {
+//        SwiftUIClockWidget()
+//    }
+//}

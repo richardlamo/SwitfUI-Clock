@@ -4,15 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftUIClockWidgetExtension.xcscheme_^#shared#^_</key>
+		<key>SwiftUICalendarWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SwiftUIClockExtWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SwitfUI Clock.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A013567D284394E20018A4A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A077D51B2AAFF66C0058F4BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0EB53842AAEDB05005CDAF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
