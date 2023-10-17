@@ -19,7 +19,6 @@
 		A0C9A39F2ADDEE0D002ADE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C9A39E2ADDEE0D002ADE8A /* Assets.xcassets */; };
 		A0C9A3A32ADDEE0D002ADE8A /* SwiftUIClockExtWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0C9A3942ADDEE0C002ADE8A /* SwiftUIClockExtWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A0C9A3AD2ADE013D002ADE8A /* SwiftUIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C9A3AC2ADE013D002ADE8A /* SwiftUIClockView.swift */; };
-		A0C9A3AF2ADE0BF4002ADE8A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = A0C9A3AE2ADE0BF4002ADE8A /* Fonts */; };
 		A0C9A3B02ADE0C2A002ADE8A /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0E279062AB1474400F0662B /* Chalkboard.ttc */; };
 		A0C9A3B12ADE0C2E002ADE8A /* Cochin.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0F027182AB143D7003DC440 /* Cochin.ttc */; };
 		A0E279072AB1474400F0662B /* Chalkboard.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A0E279062AB1474400F0662B /* Chalkboard.ttc */; };
@@ -85,7 +84,6 @@
 		A0C9A39E2ADDEE0D002ADE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C9A3A02ADDEE0D002ADE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C9A3AC2ADE013D002ADE8A /* SwiftUIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIClockView.swift; sourceTree = "<group>"; };
-		A0C9A3AE2ADE0BF4002ADE8A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		A0E279062AB1474400F0662B /* Chalkboard.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chalkboard.ttc; sourceTree = "<group>"; };
 		A0EB533B2AAED448005CDAF1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		A0EB533D2AAED448005CDAF1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -137,7 +135,6 @@
 		A0135675284394E20018A4A5 = {
 			isa = PBXGroup;
 			children = (
-				A0C9A3AE2ADE0BF4002ADE8A /* Fonts */,
 				A0135680284394E20018A4A5 /* SwitfUI Clock */,
 				A0F71BFA286DAF0A00723A1C /* SwitfUI ClockTests */,
 				A0EC0AAC286DDAD400E89E0F /* SwitfUI ClockUITests */,
@@ -381,7 +378,6 @@
 			files = (
 				A0C9A39F2ADDEE0D002ADE8A /* Assets.xcassets in Resources */,
 				A0C9A3B02ADE0C2A002ADE8A /* Chalkboard.ttc in Resources */,
-				A0C9A3AF2ADE0BF4002ADE8A /* Fonts in Resources */,
 				A0C9A3B12ADE0C2E002ADE8A /* Cochin.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
